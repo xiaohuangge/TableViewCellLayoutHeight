@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2F336351D5ECE8700F36248 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336341D5ECE8700F36248 /* main.m */; };
+		E2F336381D5ECE8700F36248 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336371D5ECE8700F36248 /* AppDelegate.m */; };
+		E2F3363E1D5ECE8700F36248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F3363C1D5ECE8700F36248 /* Main.storyboard */; };
+		E2F336401D5ECE8800F36248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F3363F1D5ECE8800F36248 /* Assets.xcassets */; };
+		E2F336431D5ECE8800F36248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F336411D5ECE8800F36248 /* LaunchScreen.storyboard */; };
+		E2F3364E1D5ECE8800F36248 /* TableViewCellLayOutHeightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F3364D1D5ECE8800F36248 /* TableViewCellLayOutHeightTests.m */; };
+		E2F336591D5ECE8800F36248 /* TableViewCellLayOutHeightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336581D5ECE8800F36248 /* TableViewCellLayOutHeightUITests.m */; };
+		E2F336681D5ECEC200F36248 /* ThirdTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336671D5ECEC200F36248 /* ThirdTableViewController.m */; };
+		E2F3366B1D5ECED700F36248 /* ThirdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F3366A1D5ECED700F36248 /* ThirdTableViewCell.m */; };
+		E2F336861D5ECF3900F36248 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F3366E1D5ECF3900F36248 /* MASCompositeConstraint.m */; };
+		E2F336871D5ECF3900F36248 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336711D5ECF3900F36248 /* MASConstraint.m */; };
+		E2F336881D5ECF3900F36248 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336731D5ECF3900F36248 /* MASConstraintMaker.m */; };
+		E2F336891D5ECF3900F36248 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336751D5ECF3900F36248 /* MASLayoutConstraint.m */; };
+		E2F3368A1D5ECF3900F36248 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336791D5ECF3900F36248 /* MASViewAttribute.m */; };
+		E2F3368B1D5ECF3900F36248 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F3367B1D5ECF3900F36248 /* MASViewConstraint.m */; };
+		E2F3368C1D5ECF3900F36248 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F3367D1D5ECF3900F36248 /* NSArray+MASAdditions.m */; };
+		E2F3368D1D5ECF3900F36248 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336801D5ECF3900F36248 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		E2F3368E1D5ECF3900F36248 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336821D5ECF3900F36248 /* View+MASAdditions.m */; };
+		E2F3368F1D5ECF3900F36248 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F336851D5ECF3900F36248 /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2F3364A1D5ECE8800F36248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2F336281D5ECE8700F36248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F3362F1D5ECE8700F36248;
+			remoteInfo = TableViewCellLayOutHeight;
+		};
+		E2F336551D5ECE8800F36248 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2F336281D5ECE8700F36248 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F3362F1D5ECE8700F36248;
+			remoteInfo = TableViewCellLayOutHeight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2F336301D5ECE8700F36248 /* TableViewCellLayOutHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCellLayOutHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F336341D5ECE8700F36248 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2F336361D5ECE8700F36248 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2F336371D5ECE8700F36248 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2F3363D1D5ECE8700F36248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2F3363F1D5ECE8800F36248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2F336421D5ECE8800F36248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2F336441D5ECE8800F36248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F336491D5ECE8800F36248 /* TableViewCellLayOutHeightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellLayOutHeightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F3364D1D5ECE8800F36248 /* TableViewCellLayOutHeightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellLayOutHeightTests.m; sourceTree = "<group>"; };
+		E2F3364F1D5ECE8800F36248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F336541D5ECE8800F36248 /* TableViewCellLayOutHeightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellLayOutHeightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F336581D5ECE8800F36248 /* TableViewCellLayOutHeightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellLayOutHeightUITests.m; sourceTree = "<group>"; };
+		E2F3365A1D5ECE8800F36248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F336661D5ECEC200F36248 /* ThirdTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewController.h; sourceTree = "<group>"; };
+		E2F336671D5ECEC200F36248 /* ThirdTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewController.m; sourceTree = "<group>"; };
+		E2F336691D5ECED700F36248 /* ThirdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdTableViewCell.h; sourceTree = "<group>"; };
+		E2F3366A1D5ECED700F36248 /* ThirdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdTableViewCell.m; sourceTree = "<group>"; };
+		E2F3366D1D5ECF3900F36248 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		E2F3366E1D5ECF3900F36248 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		E2F3366F1D5ECF3900F36248 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		E2F336701D5ECF3900F36248 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		E2F336711D5ECF3900F36248 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		E2F336721D5ECF3900F36248 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		E2F336731D5ECF3900F36248 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		E2F336741D5ECF3900F36248 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		E2F336751D5ECF3900F36248 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		E2F336761D5ECF3900F36248 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		E2F336771D5ECF3900F36248 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		E2F336781D5ECF3900F36248 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		E2F336791D5ECF3900F36248 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		E2F3367A1D5ECF3900F36248 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		E2F3367B1D5ECF3900F36248 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		E2F3367C1D5ECF3900F36248 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		E2F3367D1D5ECF3900F36248 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		E2F3367E1D5ECF3900F36248 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E2F3367F1D5ECF3900F36248 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E2F336801D5ECF3900F36248 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		E2F336811D5ECF3900F36248 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		E2F336821D5ECF3900F36248 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		E2F336831D5ECF3900F36248 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E2F336841D5ECF3900F36248 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		E2F336851D5ECF3900F36248 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F3362D1D5ECE8700F36248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F336461D5ECE8800F36248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F336511D5ECE8800F36248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2F336271D5ECE8700F36248 = {
+			isa = PBXGroup;
+			children = (
+				E2F336321D5ECE8700F36248 /* TableViewCellLayOutHeight */,
+				E2F3364C1D5ECE8800F36248 /* TableViewCellLayOutHeightTests */,
+				E2F336571D5ECE8800F36248 /* TableViewCellLayOutHeightUITests */,
+				E2F336311D5ECE8700F36248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F336311D5ECE8700F36248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F336301D5ECE8700F36248 /* TableViewCellLayOutHeight.app */,
+				E2F336491D5ECE8800F36248 /* TableViewCellLayOutHeightTests.xctest */,
+				E2F336541D5ECE8800F36248 /* TableViewCellLayOutHeightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F336321D5ECE8700F36248 /* TableViewCellLayOutHeight */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3366C1D5ECF3900F36248 /* Masonry */,
+				E2F336361D5ECE8700F36248 /* AppDelegate.h */,
+				E2F336371D5ECE8700F36248 /* AppDelegate.m */,
+				E2F336661D5ECEC200F36248 /* ThirdTableViewController.h */,
+				E2F336671D5ECEC200F36248 /* ThirdTableViewController.m */,
+				E2F336691D5ECED700F36248 /* ThirdTableViewCell.h */,
+				E2F3366A1D5ECED700F36248 /* ThirdTableViewCell.m */,
+				E2F3363C1D5ECE8700F36248 /* Main.storyboard */,
+				E2F3363F1D5ECE8800F36248 /* Assets.xcassets */,
+				E2F336411D5ECE8800F36248 /* LaunchScreen.storyboard */,
+				E2F336441D5ECE8800F36248 /* Info.plist */,
+				E2F336331D5ECE8700F36248 /* Supporting Files */,
+			);
+			path = TableViewCellLayOutHeight;
+			sourceTree = "<group>";
+		};
+		E2F336331D5ECE8700F36248 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F336341D5ECE8700F36248 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2F3364C1D5ECE8800F36248 /* TableViewCellLayOutHeightTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3364D1D5ECE8800F36248 /* TableViewCellLayOutHeightTests.m */,
+				E2F3364F1D5ECE8800F36248 /* Info.plist */,
+			);
+			path = TableViewCellLayOutHeightTests;
+			sourceTree = "<group>";
+		};
+		E2F336571D5ECE8800F36248 /* TableViewCellLayOutHeightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2F336581D5ECE8800F36248 /* TableViewCellLayOutHeightUITests.m */,
+				E2F3365A1D5ECE8800F36248 /* Info.plist */,
+			);
+			path = TableViewCellLayOutHeightUITests;
+			sourceTree = "<group>";
+		};
+		E2F3366C1D5ECF3900F36248 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3366D1D5ECF3900F36248 /* MASCompositeConstraint.h */,
+				E2F3366E1D5ECF3900F36248 /* MASCompositeConstraint.m */,
+				E2F3366F1D5ECF3900F36248 /* MASConstraint+Private.h */,
+				E2F336701D5ECF3900F36248 /* MASConstraint.h */,
+				E2F336711D5ECF3900F36248 /* MASConstraint.m */,
+				E2F336721D5ECF3900F36248 /* MASConstraintMaker.h */,
+				E2F336731D5ECF3900F36248 /* MASConstraintMaker.m */,
+				E2F336741D5ECF3900F36248 /* MASLayoutConstraint.h */,
+				E2F336751D5ECF3900F36248 /* MASLayoutConstraint.m */,
+				E2F336761D5ECF3900F36248 /* Masonry.h */,
+				E2F336771D5ECF3900F36248 /* MASUtilities.h */,
+				E2F336781D5ECF3900F36248 /* MASViewAttribute.h */,
+				E2F336791D5ECF3900F36248 /* MASViewAttribute.m */,
+				E2F3367A1D5ECF3900F36248 /* MASViewConstraint.h */,
+				E2F3367B1D5ECF3900F36248 /* MASViewConstraint.m */,
+				E2F3367C1D5ECF3900F36248 /* NSArray+MASAdditions.h */,
+				E2F3367D1D5ECF3900F36248 /* NSArray+MASAdditions.m */,
+				E2F3367E1D5ECF3900F36248 /* NSArray+MASShorthandAdditions.h */,
+				E2F3367F1D5ECF3900F36248 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				E2F336801D5ECF3900F36248 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				E2F336811D5ECF3900F36248 /* View+MASAdditions.h */,
+				E2F336821D5ECF3900F36248 /* View+MASAdditions.m */,
+				E2F336831D5ECF3900F36248 /* View+MASShorthandAdditions.h */,
+				E2F336841D5ECF3900F36248 /* ViewController+MASAdditions.h */,
+				E2F336851D5ECF3900F36248 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F3362F1D5ECE8700F36248 /* TableViewCellLayOutHeight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F3365D1D5ECE8800F36248 /* Build configuration list for PBXNativeTarget "TableViewCellLayOutHeight" */;
+			buildPhases = (
+				E2F3362C1D5ECE8700F36248 /* Sources */,
+				E2F3362D1D5ECE8700F36248 /* Frameworks */,
+				E2F3362E1D5ECE8700F36248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewCellLayOutHeight;
+			productName = TableViewCellLayOutHeight;
+			productReference = E2F336301D5ECE8700F36248 /* TableViewCellLayOutHeight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2F336481D5ECE8800F36248 /* TableViewCellLayOutHeightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F336601D5ECE8800F36248 /* Build configuration list for PBXNativeTarget "TableViewCellLayOutHeightTests" */;
+			buildPhases = (
+				E2F336451D5ECE8800F36248 /* Sources */,
+				E2F336461D5ECE8800F36248 /* Frameworks */,
+				E2F336471D5ECE8800F36248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F3364B1D5ECE8800F36248 /* PBXTargetDependency */,
+			);
+			name = TableViewCellLayOutHeightTests;
+			productName = TableViewCellLayOutHeightTests;
+			productReference = E2F336491D5ECE8800F36248 /* TableViewCellLayOutHeightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2F336531D5ECE8800F36248 /* TableViewCellLayOutHeightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F336631D5ECE8800F36248 /* Build configuration list for PBXNativeTarget "TableViewCellLayOutHeightUITests" */;
+			buildPhases = (
+				E2F336501D5ECE8800F36248 /* Sources */,
+				E2F336511D5ECE8800F36248 /* Frameworks */,
+				E2F336521D5ECE8800F36248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F336561D5ECE8800F36248 /* PBXTargetDependency */,
+			);
+			name = TableViewCellLayOutHeightUITests;
+			productName = TableViewCellLayOutHeightUITests;
+			productReference = E2F336541D5ECE8800F36248 /* TableViewCellLayOutHeightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F336281D5ECE8700F36248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = XHG;
+				TargetAttributes = {
+					E2F3362F1D5ECE8700F36248 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E2F336481D5ECE8800F36248 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S6N3T7CNU3;
+						TestTargetID = E2F3362F1D5ECE8700F36248;
+					};
+					E2F336531D5ECE8800F36248 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S6N3T7CNU3;
+						TestTargetID = E2F3362F1D5ECE8700F36248;
+					};
+				};
+			};
+			buildConfigurationList = E2F3362B1D5ECE8700F36248 /* Build configuration list for PBXProject "TableViewCellLayOutHeight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2F336271D5ECE8700F36248;
+			productRefGroup = E2F336311D5ECE8700F36248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F3362F1D5ECE8700F36248 /* TableViewCellLayOutHeight */,
+				E2F336481D5ECE8800F36248 /* TableViewCellLayOutHeightTests */,
+				E2F336531D5ECE8800F36248 /* TableViewCellLayOutHeightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2F3362E1D5ECE8700F36248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F336431D5ECE8800F36248 /* LaunchScreen.storyboard in Resources */,
+				E2F336401D5ECE8800F36248 /* Assets.xcassets in Resources */,
+				E2F3363E1D5ECE8700F36248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F336471D5ECE8800F36248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F336521D5ECE8800F36248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F3362C1D5ECE8700F36248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F336881D5ECF3900F36248 /* MASConstraintMaker.m in Sources */,
+				E2F336381D5ECE8700F36248 /* AppDelegate.m in Sources */,
+				E2F3366B1D5ECED700F36248 /* ThirdTableViewCell.m in Sources */,
+				E2F336871D5ECF3900F36248 /* MASConstraint.m in Sources */,
+				E2F3368F1D5ECF3900F36248 /* ViewController+MASAdditions.m in Sources */,
+				E2F336891D5ECF3900F36248 /* MASLayoutConstraint.m in Sources */,
+				E2F3368C1D5ECF3900F36248 /* NSArray+MASAdditions.m in Sources */,
+				E2F3368B1D5ECF3900F36248 /* MASViewConstraint.m in Sources */,
+				E2F3368A1D5ECF3900F36248 /* MASViewAttribute.m in Sources */,
+				E2F3368E1D5ECF3900F36248 /* View+MASAdditions.m in Sources */,
+				E2F336681D5ECEC200F36248 /* ThirdTableViewController.m in Sources */,
+				E2F336351D5ECE8700F36248 /* main.m in Sources */,
+				E2F336861D5ECF3900F36248 /* MASCompositeConstraint.m in Sources */,
+				E2F3368D1D5ECF3900F36248 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F336451D5ECE8800F36248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F3364E1D5ECE8800F36248 /* TableViewCellLayOutHeightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F336501D5ECE8800F36248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F336591D5ECE8800F36248 /* TableViewCellLayOutHeightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2F3364B1D5ECE8800F36248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F3362F1D5ECE8700F36248 /* TableViewCellLayOutHeight */;
+			targetProxy = E2F3364A1D5ECE8800F36248 /* PBXContainerItemProxy */;
+		};
+		E2F336561D5ECE8800F36248 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F3362F1D5ECE8700F36248 /* TableViewCellLayOutHeight */;
+			targetProxy = E2F336551D5ECE8800F36248 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2F3363C1D5ECE8700F36248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F3363D1D5ECE8700F36248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2F336411D5ECE8800F36248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F336421D5ECE8800F36248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2F3365B1D5ECE8800F36248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2F3365C1D5ECE8800F36248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2F3365E1D5ECE8800F36248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TableViewCellLayOutHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XHG.TableViewCellLayOutHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2F3365F1D5ECE8800F36248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TableViewCellLayOutHeight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XHG.TableViewCellLayOutHeight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2F336611D5ECE8800F36248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewCellLayOutHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XHG.TableViewCellLayOutHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCellLayOutHeight.app/TableViewCellLayOutHeight";
+			};
+			name = Debug;
+		};
+		E2F336621D5ECE8800F36248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewCellLayOutHeightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XHG.TableViewCellLayOutHeightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCellLayOutHeight.app/TableViewCellLayOutHeight";
+			};
+			name = Release;
+		};
+		E2F336641D5ECE8800F36248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TableViewCellLayOutHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XHG.TableViewCellLayOutHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableViewCellLayOutHeight;
+			};
+			name = Debug;
+		};
+		E2F336651D5ECE8800F36248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TableViewCellLayOutHeightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XHG.TableViewCellLayOutHeightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableViewCellLayOutHeight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F3362B1D5ECE8700F36248 /* Build configuration list for PBXProject "TableViewCellLayOutHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F3365B1D5ECE8800F36248 /* Debug */,
+				E2F3365C1D5ECE8800F36248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F3365D1D5ECE8800F36248 /* Build configuration list for PBXNativeTarget "TableViewCellLayOutHeight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F3365E1D5ECE8800F36248 /* Debug */,
+				E2F3365F1D5ECE8800F36248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F336601D5ECE8800F36248 /* Build configuration list for PBXNativeTarget "TableViewCellLayOutHeightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F336611D5ECE8800F36248 /* Debug */,
+				E2F336621D5ECE8800F36248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F336631D5ECE8800F36248 /* Build configuration list for PBXNativeTarget "TableViewCellLayOutHeightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F336641D5ECE8800F36248 /* Debug */,
+				E2F336651D5ECE8800F36248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2F336281D5ECE8700F36248 /* Project object */;
+}
